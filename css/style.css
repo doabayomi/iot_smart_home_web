@@ -17,4 +17,11 @@ body {
 
 #top_navigation {
   padding: 25px 30px 15px;
+}
+
+.panel {
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+  padding: 12px 15px;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
