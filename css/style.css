@@ -1,7 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 * {
   font-family: "Lato", sans-serif;
-  font-family: 12px;
+}
+
+p {
+  font-weight: 400;
+  margin: 0;
+  font-size: 13px;
+  color: #717171;
+}
+
+h3 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 13px;
+  color: #1F1F1F;
 }
 
 body {
@@ -11,12 +24,13 @@ body {
 .container {
   max-width: 400px;
   background-color: #E1E1E1;
-  padding: 10px;
+  padding: 0px 30px;
   margin: auto;
+  height: 100vh;
 }
 
 #top_navigation {
-  padding: 25px 30px 15px;
+  padding: 25px 15px;
 }
 
 .panel {
@@ -24,4 +38,20 @@ body {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
   padding: 12px 15px;
   background-color: #fff;
+}
+
+.stats {
+  margin: 15px 15px;
+}
+
+.alarms {
+  margin: 0px 15px 15px;
+}
+.alarms .panel {
+  padding: 13px 23px;
+  border-radius: 20px;
+}
+
+.control-monitor {
+  margin: 28px 0px;
 }/*# sourceMappingURL=style.css.map */
