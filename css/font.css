@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  font-family: 12px;
+}
+
+.container {
+  max-width: 400px;
+  background-color: #E1E1E1;
+}/*# sourceMappingURL=font.css.map */
