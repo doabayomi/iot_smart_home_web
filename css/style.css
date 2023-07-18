@@ -4,7 +4,17 @@
   font-family: 12px;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   max-width: 400px;
   background-color: #E1E1E1;
-}/*# sourceMappingURL=font.css.map */
+  padding: 10px;
+  margin: auto;
+}
+
+#top_navigation {
+  padding: 25px 30px 15px;
+}/*# sourceMappingURL=style.css.map */

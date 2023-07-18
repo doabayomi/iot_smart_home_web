@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home | NitHome</title>
 </head>
 <body>
     <div class="container">
-        <nav>
-            <div class="logo"></div>
-            <div class="night_mode_btn"></div>
+        <nav id="top_navigation">
+            <!-- Navigation Bar -->
+            <div class="row between-xs between-md between-lg betwen-sm">
+                <div class="logo">
+                    <!-- NitHub Logo -->
+                    <img src="./assets/nithub_logo.svg" alt="nithub_logo">
+                </div>
+                <div class="night_mode_btn">
+                    <!-- Light and dark mode icon -->
+                    <i id="mode"><img src="./assets/night_mode.svg" alt="night_mode"></i>
+                </div>
+            </div>
         </nav>
+
+    
         <div class="stats">
             <div id="temp"></div>
             <div id="humidity"></div>

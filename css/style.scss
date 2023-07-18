@@ -1,19 +1,31 @@
+// Getting google font "Lato"
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+// Setting light mode variables for the file
 $light_mode_bg : #E1E1E1;
 $light_mode_primary: #1A31B6;
 $light_mode_text_color_regular: #717171;
 $light_mode_text_color_lighter: #919191;
 $light_mode_text_color_dark: #1F1F1F;
 
+// General Styles
 * {
     font-family: 'Lato', sans-serif;
     font-family: 12px;
 }
 
+body {
+    margin: 0
+}
 .container {
     max-width: 400px;
     background-color: $light_mode_bg;
     padding: 10px;
+    margin: auto;
 }
 
+
+// Top Navigation Styles
+#top_navigation {
+    padding: 25px 30px 15px;
+}
